@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #E7E7E7;
+    padding-top: 100px;
+    height: 100vh;    
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 640px;
+    flex-direction: column;
+    margin-bottom: 56px;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.btn-cadastrar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cadastrar button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #65a30d;
+    font-size: 16px;
+}
+
+.btn-cadastrar button:hover {
+    background-color: #84cc16;
+}
+

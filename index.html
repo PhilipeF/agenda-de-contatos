@@ -4,11 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Contatoss</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Agenda de Contatos</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <h1>Agenda de Contatos</h1>
+    <div class="container">
+        <form class="form-cadastrar">
+            <div>
+                <label for="">Nome:</label>
+                <input type="text"  placeholder="Entre com um nome">
+            </div>
+            <div>
+                <label for="">Telefone:</label>
+                <input type="number"  placeholder="(xx-xxxx-xxxx)">
+            </div>
+            <div class="btn-cadastrar">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
